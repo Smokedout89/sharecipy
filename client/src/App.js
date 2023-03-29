@@ -1,24 +1,35 @@
-function App() {
-  return (
-    // <div className="App">
-    //   <header className="App-header">
-    //     <img className="App-logo" alt="logo" />
-    //     <p>
-    //       Edit <code>src/App.js</code> and save to reload.
-    //     </p>
-    //     <a
-    //       className="App-link"
-    //       href="https://reactjs.org"
-    //       target="_blank"
-    //       rel="noopener noreferrer"
-    //     >
-    //       Learn React
-    //     </a>
-    //   </header>
-    // </div>
+import { useState, useEffect } from 'react';
+import { Routes, Route, useNavigate } from 'react-router-dom';
+import { About } from './components/About';
 
-    <p>Still a good start though!</p>
-  );
+import { Home } from "./components/Home";
+import { Login } from "./components/Login";
+import { Logout } from "./components/Logout";
+import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
+import { Catalog } from "./components/Catalog";
+import { Register } from "./components/Register";
+
+function App() {
+
+    return (
+        <div id="box">
+            <Header />
+
+            <main id="main-content">
+                <Routes>
+                    <Route path='/' element={<Home />} />
+                    <Route path='about' element={<About />} />
+                    <Route path='register' element={<Register />} />
+                    <Route path='catalog' element={<Catalog />} />
+                    <Route path='login' element={<Login />} />
+                    <Route path='logout' element={<Logout />} />
+                </Routes>
+            </main>
+
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
