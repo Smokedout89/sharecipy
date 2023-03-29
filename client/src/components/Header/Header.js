@@ -29,8 +29,8 @@ export const Header = () => {
             </Navbar.Brand>
 
             <Nav className="container-fluid; ms-auto">
-                <Nav.Link className='px-3' href="/home">Home</Nav.Link>
-                <Nav.Link className='px-3' href="/catalog">Catalog</Nav.Link>
+                <Nav.Link className='px-3' href="/">Home</Nav.Link>
+                <Nav.Link className='px-3' href="/recipe">Recipes</Nav.Link>
                 <Nav.Link className='px-3' href="/about">About</Nav.Link>
                 <Nav.Link className='px-3' href="/login">Login</Nav.Link>
                 <Nav.Link className='px-3' href="/register">Register</Nav.Link>

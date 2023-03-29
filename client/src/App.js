@@ -7,8 +7,8 @@ import { Login } from "./components/Login";
 import { Logout } from "./components/Logout";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
-import { Catalog } from "./components/Catalog";
 import { Register } from "./components/Register";
+import { Recipe } from './components/Recipe';
 
 function App() {
 
@@ -21,7 +21,7 @@ function App() {
                     <Route path='/' element={<Home />} />
                     <Route path='about' element={<About />} />
                     <Route path='register' element={<Register />} />
-                    <Route path='catalog' element={<Catalog />} />
+                    <Route path='recipe' element={<Recipe />} />
                     <Route path='login' element={<Login />} />
                     <Route path='logout' element={<Logout />} />
                 </Routes>

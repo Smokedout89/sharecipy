@@ -1,0 +1,13 @@
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.div {
+    background: rgb(56, 56, 60);
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    color: #ffffff;
+}

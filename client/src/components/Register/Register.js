@@ -24,7 +24,7 @@ export const Register = () => {
         //     </Button>
         // </Form>
 
-        <form>
+        <Form>
             <div className="form-group">
                 <label htmlFor="inputName">Name</label>
                 <input
@@ -64,6 +64,6 @@ export const Register = () => {
             <button type="submit" className="btn btn-primary">
                 Register
             </button>
-        </form>
+        </Form>
     );
 };

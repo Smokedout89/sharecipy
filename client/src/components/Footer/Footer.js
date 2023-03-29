@@ -1,7 +1,11 @@
+import styles from './Footer.module.css'
+
 export const Footer = () => {
     return (
-        <footer className="footer">
-            <p>Copyright © designed by Pavel Velikov</p>
+        <footer className={styles.footer}>
+            <div className={styles.div}>
+                Copyright © designed by Pavel Velikov
+            </div>
         </footer>
     );
 };
