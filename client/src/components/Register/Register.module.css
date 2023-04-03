@@ -1,0 +1,35 @@
+.form {
+    text-align: center;
+    max-width: 20em;
+    margin: auto;
+    padding-top: 2%;
+}
+
+.text {
+    text-align: center;
+    width: 100%;
+}
+
+.card {
+    width: 25rem;
+    margin: auto;
+    float: none;
+    margin-top: 20px;
+    background-color: blanchedalmond!important;
+}
+
+input[type='username']::placeholder {
+    text-align: center;
+}
+
+input[type='email']::placeholder {
+    text-align: center;
+}
+
+input[type='password']::placeholder {
+    text-align: center;
+}
+
+input[type='confirmpassword']::placeholder {
+    text-align: center;
+}
