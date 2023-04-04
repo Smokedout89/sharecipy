@@ -1,0 +1,9 @@
+.cardGroup {
+    width: 80%;
+}
+
+.card {
+    background-color: beige;
+    margin-top: 12%;
+    margin-left: 22%;
+}

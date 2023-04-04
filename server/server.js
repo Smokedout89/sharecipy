@@ -1445,6 +1445,7 @@
             '1840a313-225c-416a-817a-9954d4609f7c': {
                 _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
                 name: 'Musakichka',
+                category: 'Bulgarian',
                 description: 'unikalna musakichka batko',
                 ownerName: 'Pesho',
                 category: 'razni',
