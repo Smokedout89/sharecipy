@@ -1,5 +1,11 @@
+import { Loading } from '../common/spinner';
+
 export const Recipe = () => {
     return (
-        <h1>Recipe Page</h1>
+        <section id="recipes-page">
+            <h1>All Recipes</h1>
+
+            <Loading />
+        </section>
     );
 };
