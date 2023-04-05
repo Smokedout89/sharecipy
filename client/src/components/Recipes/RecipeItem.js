@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
+
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+import Button from 'react-bootstrap/Button';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 import styles from "./RecipeItem.module.css";
 
@@ -12,56 +14,32 @@ export const RecipeItem = ({
 }) => {
     return (
         <>
-            <CardGroup className={styles.cardGroup}>
-                <Card className={styles.card}>
-                    <Card.Img variant="top" src="holder.js/100px160" />
-                    <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in
-                            to additional content. This content is a little bit longer.
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
-                </Card>
-                <Card className={styles.card}>
-                    <Card.Img variant="top" src="holder.js/100px160" />
-                    <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This card has supporting text below as a natural lead-in to
-                            additional content.{' '}
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
-                </Card>
-                <Card className={styles.card}>
-                    <Card.Img variant="top" src="holder.js/100px160" />
-                    <Card.Body>
-                        <Card.Title>Card title</Card.Title>
-                        <Card.Text>
-                            This is a wider card with supporting text below as a natural lead-in
-                            to additional content. This card has even longer content than the
-                            first to show that equal height action.
-                        </Card.Text>
-                    </Card.Body>
-                    <Card.Footer>
-                        <small className="text-muted">Last updated 3 mins ago</small>
-                    </Card.Footer>
-                </Card>
-            </CardGroup>
+            <Card className={styles.card}>
+                <Card.Img height='280px' variant="top" src="https://drive.google.com/uc?id=1jTiYozo2WOacX-jb55jzg0D8aKJu2zhc" />
+                <Card.Body>
+                    <Card.Title>Card title</Card.Title>
+                    <Card.Text>
+                        This is a wider card with supporting text below as a natural lead-in
+                        to additional content. This content is a little bit longer.
+                    </Card.Text>
+                </Card.Body>
+                <ButtonGroup size="lg" className={styles.buttonGroup}>
+                    <Link to="/login"><Button variant="primary">Details</Button>{' '}</Link>
+                    {/* <div className={styles.divider} /> */}
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <Link to="/login"><Button variant="warning">Info</Button>{' '}</Link>
+                    {/* <div className={styles.divider} /> */}
+                    &nbsp;
+                    &nbsp;
+                    &nbsp;
+                    <Link to="/login"><Button variant="danger">Delete</Button>{' '}</Link>              
+                </ButtonGroup>
+                <Card.Footer>
+                    <small className="text-muted">Last updated 3 mins ago</small>
+                </Card.Footer>
+            </Card>
         </>
-        // <div className={styles.allRecipes}>
-        //     <div className="recipe-info">
-        //         <img src={imageUrl} alt="mm delicous" />
-        //         <h5>{title}</h5>
-        //         <h3>{category}</h3>
-        //         <Link to={`/recipes/${_id}`} className="details">Details</Link>
-        //     </div>
-        // </div>
     )
 }

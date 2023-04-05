@@ -1,9 +1,19 @@
-.cardGroup {
-    width: 80%;
+.card {
+    background-color: bisque!important;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-left: 22%;
+    max-width: 70%;
 }
 
-.card {
-    background-color: beige;
-    margin-top: 12%;
-    margin-left: 22%;
+.buttonGroup {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 5px;
 }
+
+/* .divider {
+    margin-left: 10%;
+    height: auto;
+    display: inline-block;
+} */
