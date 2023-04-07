@@ -9,8 +9,8 @@ import { Recipes } from './components/Recipes';
 import { Login } from "./components/Login";
 import { Register } from "./components/Register";
 import { Logout } from "./components/Logout";
-import { About } from './components/About';
 import { Footer } from "./components/Footer";
+import { RecipeCreate } from './components/RecipeCreate';
 
 function App() {
 
@@ -24,9 +24,9 @@ function App() {
                     <main id="main-content">
                         <Routes>
                             <Route path='/' element={<Home />} />
-                            <Route path='about' element={<About />} />
                             <Route path='register' element={<Register />} />
                             <Route path='recipes' element={<Recipes />} />
+                            <Route path='create' element={<RecipeCreate />} />
                             <Route path='login' element={<Login />} />
                             <Route path='logout' element={<Logout />} />
                         </Routes>

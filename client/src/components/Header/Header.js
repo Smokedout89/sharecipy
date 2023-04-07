@@ -32,10 +32,11 @@ export const Header = () => {
                     </>
                 )}
 
-                <Nav.Link as={Link} className='px-3' to="/about">About</Nav.Link>
-
                 {isAuthenticated && (
-                    <Nav.Link as={Link} className='px-3' to="/logout">Logout</Nav.Link>
+                    <>
+                        <Nav.Link as={Link} className='px-3' to="/create">Create recipe</Nav.Link>
+                        <Nav.Link as={Link} className='px-3' to="/logout">Logout</Nav.Link>
+                    </>
                 )}
 
             </Nav>

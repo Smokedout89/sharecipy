@@ -36,7 +36,7 @@ export const RecipeProvider = ({
 
         setRecipes(state => state.map(x => x._id === values._id ? result : x));
 
-        navigate(`/catalog/${values._id}`);
+        navigate(`/recipes/${values._id}`);
     };
 
     const deleteRecipe = (recipeId) => {

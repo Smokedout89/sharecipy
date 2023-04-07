@@ -7,13 +7,15 @@
 }
 
 .buttonGroup {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin: 0 auto;
     padding-bottom: 5px;
 }
 
-/* .divider {
-    margin-left: 10%;
-    height: auto;
-    display: inline-block;
-} */
+.footer {
+    text-align: right;
+    size: 5cm;
+}
+
+.text-muted {
+    size: 20px;
+}

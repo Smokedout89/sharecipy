@@ -1444,56 +1444,62 @@
         recipes: {
             '1840a313-225c-416a-817a-9954d4609f7c': {
                 _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
-                name: 'Musakichka',
+                title: 'Musakichka',
                 category: 'Bulgarian',
                 description: 'unikalna musakichka batko',
                 ownerName: 'Pesho',
-                category: 'razni',
+                ingredients: '',
+                instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
                 imageUrl: ''
             },
             '126777f5-3277-42ad-b874-76d043b069cb': {
                 _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
-                name: 'Musakichka',
+                title: 'Musakichka',
                 category: 'Bulgarian',
                 description: 'unikalna musakichka batko',
                 ownerName: 'Pesho',
-                category: 'razni',
+                ingredients: '',
+                instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
                 imageUrl: ''
             },
             '136777f5-3277-42ad-b874-76d043b069cb': {
                 _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
-                name: 'Musakichka',
+                title: 'Musakichka',
                 category: 'Bulgarian',
                 description: 'unikalna musakichka batko',
                 ownerName: 'Pesho',
-                category: 'razni',
+                ingredients: '',
+                instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
                 imageUrl: ''
             },
-            '137123f5-3277-42ad-b874-76d043b069cb': {
+            '137187f5-3277-42ad-b874-76d043b069cb': {
                 _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
-                name: 'Musakichka',
+                title: 'Musakichka',
                 category: 'Bulgarian',
                 description: 'unikalna musakichka batko',
                 ownerName: 'Pesho',
-                category: 'razni',
+                ingredients: '',
+                instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
                 imageUrl: ''
             },
-            '137123f5-3277-42ad-b874-43d043b069cb': {
+            '137123f5-3657-42ad-b874-43d043b069cb': {
                 _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
-                name: 'Musakichka',
+                title: 'Musakichka',
                 category: 'Bulgarian',
                 description: 'unikalna musakichka batko',
                 ownerName: 'Pesho',
-                category: 'razni',
+                ingredients: '',
+                instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
                 imageUrl: ''
             },
-            '137123f5-3277-42ad-b1234-76d043b069cb': {
+            '137123f5-3547-42ad-b1234-76d043b069cb': {
                 _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
-                name: 'Musakichka',
+                title: 'Musakichka',
                 category: 'Bulgarian',
                 description: 'unikalna musakichka batko',
                 ownerName: 'Pesho',
-                category: 'razni',
+                ingredients: '',
+                instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
                 imageUrl: ''
             }
         }

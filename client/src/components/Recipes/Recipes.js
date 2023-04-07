@@ -12,12 +12,12 @@ export const Recipes = () => {
 
     return (
         <section id="recipes-page">
-            <h1>All Recipes</h1>
+            <h1 className={styles.allRecipes}>All Recipes</h1>
 
             <Row xs={1} md={3} className="g-4">
                 {recipes.map(x =>
-                    <Col>
-                        <RecipeItem key={x._id} {...x} />
+                    <Col key={x._id}>
+                        <RecipeItem {...x} />
                     </Col>
                 )}
             </Row>
