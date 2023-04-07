@@ -1,0 +1,25 @@
+.card {
+    position: relative;
+    background-color: bisque !important;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-left: 14%;
+    max-width: 70%;
+}
+
+.cardBody {
+    text-align: right;
+}
+
+.textTitle {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.text {
+    text-align: center;
+}
+
+.button {
+    min-width: 150px;
+}

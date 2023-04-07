@@ -12,34 +12,30 @@ export const RecipeItem = ({
     _id,
     title,
     imageUrl,
-    category
+    description
 }) => {
     return (
-        <>
-            <Card className={styles.card}>
-                <Card.Img height='280px' variant="top" src="https://drive.google.com/uc?id=1jTiYozo2WOacX-jb55jzg0D8aKJu2zhc" />
-                <Card.Body>
-                    <Card.Title>Card title</Card.Title>
-                    <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in
-                        to additional content. This content is a little bit longer.
-                    </Card.Text>
-                </Card.Body>
-                <ButtonGroup size="lg" className={styles.buttonGroup}>
-                    <Link to="/login"><Button variant="primary">Details</Button>{' '}</Link>
-                    &nbsp;
-                    &nbsp;
-                    &nbsp;
-                    <Link to="/login"><Button variant="warning">Info</Button>{' '}</Link>
-                    &nbsp;
-                    &nbsp;
-                    &nbsp;
-                    <Link to="/login"><Button variant="danger">Delete</Button>{' '}</Link>
-                </ButtonGroup>
-                <Card.Footer className={styles.footer}>
-                    <small className="text-muted">Likes <FontAwesomeIcon icon={faHeart} /> </small>
-                </Card.Footer>
-            </Card>
-        </>
+        <Card className={styles.card}>
+            <Card.Img height='280px' variant="top" src={imageUrl} />
+            <Card.Body>
+                <Card.Title>{title}</Card.Title>
+                <Card.Text>{description}
+                </Card.Text>
+            </Card.Body>
+            <ButtonGroup size="lg" className={styles.buttonGroup}>
+                <Link to={`/recipes/${_id}`}><Button variant="primary">Details</Button>{' '}</Link>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <Link to="/login"><Button variant="warning">Edit</Button>{' '}</Link>
+                &nbsp;
+                &nbsp;
+                &nbsp;
+                <Link to="/login"><Button variant="danger">Delete</Button>{' '}</Link>
+            </ButtonGroup>
+            <Card.Footer className={styles.footer}>
+                <small className="text-muted">Likes <FontAwesomeIcon icon={faHeart} /> </small>
+            </Card.Footer>
+        </Card>
     )
 }

@@ -1448,7 +1448,7 @@
                 category: 'Bulgarian',
                 description: 'unikalna musakichka batko',
                 ownerName: 'Pesho',
-                ingredients: '',
+                ingredients: 'kartofi, kaima blqt',
                 instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
                 imageUrl: ''
             },
@@ -1458,7 +1458,7 @@
                 category: 'Bulgarian',
                 description: 'unikalna musakichka batko',
                 ownerName: 'Pesho',
-                ingredients: '',
+                ingredients: 'kartofi, kaima blqt',
                 instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
                 imageUrl: ''
             },
@@ -1468,37 +1468,7 @@
                 category: 'Bulgarian',
                 description: 'unikalna musakichka batko',
                 ownerName: 'Pesho',
-                ingredients: '',
-                instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
-                imageUrl: ''
-            },
-            '137187f5-3277-42ad-b874-76d043b069cb': {
-                _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
-                title: 'Musakichka',
-                category: 'Bulgarian',
-                description: 'unikalna musakichka batko',
-                ownerName: 'Pesho',
-                ingredients: '',
-                instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
-                imageUrl: ''
-            },
-            '137123f5-3657-42ad-b874-43d043b069cb': {
-                _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
-                title: 'Musakichka',
-                category: 'Bulgarian',
-                description: 'unikalna musakichka batko',
-                ownerName: 'Pesho',
-                ingredients: '',
-                instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
-                imageUrl: ''
-            },
-            '137123f5-3547-42ad-b1234-76d043b069cb': {
-                _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
-                title: 'Musakichka',
-                category: 'Bulgarian',
-                description: 'unikalna musakichka batko',
-                ownerName: 'Pesho',
-                ingredients: '',
+                ingredients: 'kartofi, kaima blqt',
                 instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
                 imageUrl: ''
             }

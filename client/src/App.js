@@ -11,6 +11,7 @@ import { Register } from "./components/Register";
 import { Logout } from "./components/Logout";
 import { Footer } from "./components/Footer";
 import { RecipeCreate } from './components/RecipeCreate';
+import { RecipeDetails } from './components/RecipeDetails/RecipeDetails';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
                             <Route path='/' element={<Home />} />
                             <Route path='register' element={<Register />} />
                             <Route path='recipes' element={<Recipes />} />
+                            <Route path='recipes/:recipeId' element={<RecipeDetails />} />
                             <Route path='create' element={<RecipeCreate />} />
                             <Route path='login' element={<Login />} />
                             <Route path='logout' element={<Logout />} />
