@@ -23,7 +23,7 @@ export const Recipes = () => {
             </Row>
 
             {recipes.length === 0 && (
-                <h3 className="no-articles">No recipes yet.</h3>
+                <h3 className={styles.noArticles}>No recipes yet.</h3>
             )}
 
         </section>

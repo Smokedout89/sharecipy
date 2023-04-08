@@ -10,6 +10,10 @@ export const useForm = (initialValues, onSubmitHandler) => {
     const onSubmit = (e) => {
         e.preventDefault();
 
+        if (Object.values(values).some(x => x === '')) {
+            return alert("Please complete all fields!")
+        }
+
         onSubmitHandler(values);
 
         setValues(initialValues);
@@ -17,7 +21,7 @@ export const useForm = (initialValues, onSubmitHandler) => {
 
     const changeValues = (newValues) => {
         // TODO: Validate newValues shape (like initialValues)
-
+        
         setValues(newValues);
     };
 
@@ -25,6 +29,6 @@ export const useForm = (initialValues, onSubmitHandler) => {
         values,
         changeHandler,
         onSubmit,
-        changeValues,
+        changeValues
     };
 };

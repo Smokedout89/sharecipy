@@ -1,0 +1,16 @@
+.card {
+    width: 25rem;
+    margin: auto;
+    float: none;
+    margin-top: 3%;
+    background-color: blanchedalmond !important;
+}
+
+.form {
+    text-align: center;
+    max-width: 20em;
+    margin: auto;
+    padding-top: 2%;
+    margin-bottom: 3%;
+    width: 25rem;
+}

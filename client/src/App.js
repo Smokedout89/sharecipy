@@ -12,6 +12,9 @@ import { Logout } from "./components/Logout";
 import { Footer } from "./components/Footer";
 import { RecipeCreate } from './components/RecipeCreate';
 import { RecipeDetails } from './components/RecipeDetails/RecipeDetails';
+import { RouteGuard } from "./components/common/RouteGuard";
+import { RecipeOwner } from "./components/common/RecipeOwner";
+import { EditRecipe } from './components/RecipeEdit/RecipeEdit';
 
 function App() {
 
@@ -25,12 +28,20 @@ function App() {
                     <main id="main-content">
                         <Routes>
                             <Route path='/' element={<Home />} />
+                            <Route path='login' element={<Login />} />
                             <Route path='register' element={<Register />} />
                             <Route path='recipes' element={<Recipes />} />
                             <Route path='recipes/:recipeId' element={<RecipeDetails />} />
-                            <Route path='create' element={<RecipeCreate />} />
-                            <Route path='login' element={<Login />} />
-                            <Route path='logout' element={<Logout />} />
+
+                            <Route element={<RouteGuard />}>
+                                <Route path='/recipes/:recipeId/edit' element={
+                                    <RecipeOwner>
+                                        <EditRecipe />
+                                    </RecipeOwner>
+                                } />
+                                <Route path='create' element={<RecipeCreate />} />
+                                <Route path='logout' element={<Logout />} />
+                            </Route>
                         </Routes>
                     </main>
 

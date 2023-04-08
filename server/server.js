@@ -1426,13 +1426,13 @@
         users: {
             '35c62d76-8152-4626-8712-eeb96381bea8': {
                 email: 'peter@abv.bg',
-                username: 'peshkata',
+                username: 'Pesho',
                 hashedPassword:
                     '83313014ed3e2391aa1332615d2f053cf5c1bfe05ca1cbcb5582443822df6eb1',
             },
             '847ec027-f659-4086-8032-5173e2f9c93a': {
                 email: 'john@abv.bg',
-                username: 'jonkata',
+                username: 'Johny',
                 hashedPassword:
                     '83313014ed3e2391aa1332615d2f053cf5c1bfe05ca1cbcb5582443822df6eb1',
             },
@@ -1444,33 +1444,33 @@
         recipes: {
             '1840a313-225c-416a-817a-9954d4609f7c': {
                 _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
-                title: 'Musakichka',
-                category: 'Bulgarian',
-                description: 'unikalna musakichka batko',
+                title: 'Crisp Parmesan Omelet',
+                category: 'Breakfast and Brunch',
+                description: 'Perfect and easy to make breakfast that everyone can make',
                 ownerName: 'Pesho',
-                ingredients: 'kartofi, kaima blqt',
-                instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
-                imageUrl: ''
+                ingredients: '2 eggs, teaspoon water, teaspoon olive oil, ounce of freshly grated Parmigiano cheese, salt and black pepper',
+                instructions: 'Crack eggs into a mixing bowl. Add one teaspoon water. Whisk together until just beaten. Drizzle olive oil into an nonstick skillet. Brush evenly over the bottom of the pan. Evenly grate cheese into the skillet approximately 1/2-inch deep.',
+                imageUrl: 'https://drive.google.com/uc?id=1knI-EjDjBmBQ7iuGrXxlUibngYtvHtWG'
             },
             '126777f5-3277-42ad-b874-76d043b069cb': {
                 _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
-                title: 'Musakichka',
-                category: 'Bulgarian',
-                description: 'unikalna musakichka batko',
+                title: 'Caesar Salad',
+                category: 'Salads',
+                description: 'Even though the tossed salad only has four ingredients, it packs a major flavor punch.',
                 ownerName: 'Pesho',
-                ingredients: 'kartofi, kaima blqt',
-                instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
-                imageUrl: ''
+                ingredients: 'romaine lettuce, parmesan cheese, croutons, caesar dressing',
+                instructions: 'Believe it or not, creating a Caesar salad from-scratch is actually really easy. All you\'ll need is romaine lettuce, Parmesan cheese, croutons, and Caesar dressing.We recommend homemade croutons and dressing, but store bought is fine in a pinch.',
+                imageUrl: 'https://drive.google.com/uc?id=1g6r-Nkmbtk5EGgU0KboMC1uR38GEK3Ou'
             },
             '136777f5-3277-42ad-b874-76d043b069cb': {
-                _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
-                title: 'Musakichka',
-                category: 'Bulgarian',
-                description: 'unikalna musakichka batko',
-                ownerName: 'Pesho',
-                ingredients: 'kartofi, kaima blqt',
-                instructions: 'nqma sega da ti obesnqvam kak se pravi musakata brato',
-                imageUrl: ''
+                _ownerId: '847ec027-f659-4086-8032-5173e2f9c93a',
+                title: 'Grilled Salmon',
+                category: 'Fish',
+                description: 'This grilled salmon recipe will quickly become a staple in your summertime dinner rotation.',
+                ownerName: 'Johny',
+                ingredients: 'salmon fillets, lemon pepper, garlic powder, salt, soy saude, brown sugar, vegetable oil',
+                instructions: 'Season and marinate the salmon for at least two hours in the refrigerator. Preheat a grill and lightly oil the grate. Place the salmon on the grill and discard the marinade. Cook on each side until the fish flakes easily with a fork.',
+                imageUrl: 'https://drive.google.com/uc?id=124y3Dw0xdWULH2V4FAWOK9ViC11xK8lC'
             }
         }
         // albums: {

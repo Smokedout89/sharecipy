@@ -24,14 +24,6 @@ export const RecipeItem = ({
             </Card.Body>
             <ButtonGroup size="lg" className={styles.buttonGroup}>
                 <Link to={`/recipes/${_id}`}><Button variant="primary">Details</Button>{' '}</Link>
-                &nbsp;
-                &nbsp;
-                &nbsp;
-                <Link to="/login"><Button variant="warning">Edit</Button>{' '}</Link>
-                &nbsp;
-                &nbsp;
-                &nbsp;
-                <Link to="/login"><Button variant="danger">Delete</Button>{' '}</Link>
             </ButtonGroup>
             <Card.Footer className={styles.footer}>
                 <small className="text-muted">Likes <FontAwesomeIcon icon={faHeart} /> </small>

@@ -36,7 +36,7 @@ export const RecipeDetails = () => {
         const result = confirm(`Are you sure you want to delete ${recipe.title}`);
 
         if (result) {
-            await recipeService.deleteRecipe(recipe._id);
+            await recipeService.delete(recipe._id);
 
             deleteRecipe(recipe._id);
 
@@ -46,61 +46,43 @@ export const RecipeDetails = () => {
 
     return (
         <section id="recipe-details">
-            <h1>Recipe Details</h1>
+            <h1 className={styles.mainText}>Recipe Details</h1>
 
             <div className={styles.card}>
                 <div className="row g-0">
                     <div className="col-sm-5">
-                        <Card.Img height='100%' width='100%' variant="right" src="https://drive.google.com/uc?id=1jTiYozo2WOacX-jb55jzg0D8aKJu2zhc" />
+                        <Card.Img height='100%' width='100%' variant="right" src={recipe.imageUrl} />
                     </div>
                     <div className="col-sm-7">
                         <Card.Body className={styles.cardBody}>
                             <Card.Title className={styles.textTitle}><h1>{recipe.title}</h1></Card.Title>
-                            <Card.Text className={styles.text}>
+                            <div className={styles.text}>                       
                                 <h2>{recipe.category}</h2>
                                 <h4>{recipe.description}</h4>
-                            </Card.Text>
-                            <Card.Text className={styles.text}>
+                            </div>
+                            <div className={styles.text}>
                                 <h3>{recipe.ingredients}</h3>
                                 <h4>{recipe.instructions}</h4>
-                            </Card.Text>
+                            </div>
                         </Card.Body>
-                        <div className="col-md-12 text-center">
-                            <ButtonGroup size="lg" className={styles.buttonGroup}>
-                                &nbsp;
-                                &nbsp;
-                                &nbsp;
-                                <Link to="/login"><Button className={styles.button} variant="warning">Edit</Button>{' '}</Link>
-                                &nbsp;
-                                &nbsp;
-                                &nbsp;
-                                <Link to="/login"><Button className={styles.button} variant="danger">Delete</Button>{' '}</Link>
-                            </ButtonGroup>
-                        </div>
+
+                        {isOwner && (
+                            <div className="col-md-12 text-center">
+                                <ButtonGroup size="lg" className={styles.buttonGroup}>
+                                    &nbsp;
+                                    &nbsp;
+                                    &nbsp;
+                                    <Link to={`/recipes/${recipe._id}/edit`}><Button className={styles.button} variant="warning">Edit</Button>{' '}</Link>
+                                    &nbsp;
+                                    &nbsp;
+                                    &nbsp;
+                                    <Link to="/recipes"><Button className={styles.button} onClick={onDeleteClick} variant="danger">Delete</Button>{' '}</Link>
+                                </ButtonGroup>
+                            </div>
+                        )}                        
                     </div>
                 </div>
             </div>
-
-            {/* <Card className={styles.card}>
-                <Card.Img height='50%' width='50%' variant="right" src="https://drive.google.com/uc?id=1jTiYozo2WOacX-jb55jzg0D8aKJu2zhc" />
-                <Card.Body className={styles.cardBody}>
-                    <Card.Title className={styles.text}>Card title</Card.Title>
-                    <Card.Text>
-                        This is a wider card with supporting text below as a natural lead-in
-                        to additional content. This content is a little bit longer.
-                    </Card.Text>
-                </Card.Body>
-                <ButtonGroup size="lg" className={styles.buttonGroup}>
-                    &nbsp;
-                    &nbsp;
-                    &nbsp;
-                    <Link to="/login"><Button variant="warning">Edit</Button>{' '}</Link>
-                    &nbsp;
-                    &nbsp;
-                    &nbsp;
-                    <Link to="/login"><Button variant="danger">Delete</Button>{' '}</Link>
-                </ButtonGroup>
-            </Card> */}
         </section>
     );
 };
