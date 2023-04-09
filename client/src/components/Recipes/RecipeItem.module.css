@@ -11,6 +11,10 @@
     padding-bottom: 5px;
 }
 
+.titleText {
+    text-align: center;
+}
+
 .footer {
     text-align: right;
     size: 5cm;
@@ -18,4 +22,8 @@
 
 .text-muted {
     size: 20px;
+}
+
+.recipeDescr {
+    text-align: center;
 }

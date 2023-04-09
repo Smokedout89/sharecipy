@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { useService } from '../../hooks/useService';
 import { recipeServiceFactory } from "../../services/recipeService";
 
+import { LikeButton } from "../LikeButton/LikeButton";
 import { useAuthContext } from '../../contexts/AuthContext';
 import { useRecipeContext } from "../../contexts/RecipeContext";
 
@@ -12,6 +13,7 @@ import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
 import styles from "./RecipeDetails.module.css";
+
 
 export const RecipeDetails = () => {
     const { recipeId } = useParams();
@@ -44,6 +46,7 @@ export const RecipeDetails = () => {
         };
     };
 
+
     return (
         <section id="recipe-details">
             <h1 className={styles.mainText}>Recipe Details</h1>
@@ -56,7 +59,7 @@ export const RecipeDetails = () => {
                     <div className="col-sm-7">
                         <Card.Body className={styles.cardBody}>
                             <Card.Title className={styles.textTitle}><h1>{recipe.title}</h1></Card.Title>
-                            <div className={styles.text}>                       
+                            <div className={styles.text}>
                                 <h2>{recipe.category}</h2>
                                 <h4>{recipe.description}</h4>
                             </div>
@@ -79,7 +82,19 @@ export const RecipeDetails = () => {
                                     <Link to="/recipes"><Button className={styles.button} onClick={onDeleteClick} variant="danger">Delete</Button>{' '}</Link>
                                 </ButtonGroup>
                             </div>
-                        )}                        
+                        )}
+
+                        &nbsp;
+                        &nbsp;
+                        &nbsp;
+
+                        {!isOwner && (
+                            <div className={styles.likes}>
+                                {userId && (
+                                    <LikeButton></LikeButton>
+                                )}
+                            </div>
+                        )}
                     </div>
                 </div>
             </div>

@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import { createContext, useState, useContext } from 'react';
+import { createContext, useContext } from 'react';
 
 import { useLocalStorage } from '../hooks/useLocalStorage.js';
 import { authServiceFactory } from '../services/authService.js';

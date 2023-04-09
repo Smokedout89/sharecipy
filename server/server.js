@@ -1446,8 +1446,9 @@
                 _ownerId: '35c62d76-8152-4626-8712-eeb96381bea8',
                 title: 'Crisp Parmesan Omelet',
                 category: 'Breakfast and Brunch',
-                description: 'Perfect and easy to make breakfast that everyone can make',
+                description: 'Perfect and easy to make breakfast that everyone can make and enjoy in no time.',
                 ownerName: 'Pesho',
+                recipeLikes: '0',
                 ingredients: '2 eggs, teaspoon water, teaspoon olive oil, ounce of freshly grated Parmigiano cheese, salt and black pepper',
                 instructions: 'Crack eggs into a mixing bowl. Add one teaspoon water. Whisk together until just beaten. Drizzle olive oil into an nonstick skillet. Brush evenly over the bottom of the pan. Evenly grate cheese into the skillet approximately 1/2-inch deep.',
                 imageUrl: 'https://drive.google.com/uc?id=1knI-EjDjBmBQ7iuGrXxlUibngYtvHtWG'
@@ -1458,6 +1459,7 @@
                 category: 'Salads',
                 description: 'Even though the tossed salad only has four ingredients, it packs a major flavor punch.',
                 ownerName: 'Pesho',
+                recipeLikes: '0',
                 ingredients: 'romaine lettuce, parmesan cheese, croutons, caesar dressing',
                 instructions: 'Believe it or not, creating a Caesar salad from-scratch is actually really easy. All you\'ll need is romaine lettuce, Parmesan cheese, croutons, and Caesar dressing.We recommend homemade croutons and dressing, but store bought is fine in a pinch.',
                 imageUrl: 'https://drive.google.com/uc?id=1g6r-Nkmbtk5EGgU0KboMC1uR38GEK3Ou'
@@ -1468,6 +1470,7 @@
                 category: 'Fish',
                 description: 'This grilled salmon recipe will quickly become a staple in your summertime dinner rotation.',
                 ownerName: 'Johny',
+                recipeLikes: '0',
                 ingredients: 'salmon fillets, lemon pepper, garlic powder, salt, soy saude, brown sugar, vegetable oil',
                 instructions: 'Season and marinate the salmon for at least two hours in the refrigerator. Preheat a grill and lightly oil the grate. Place the salmon on the grill and discard the marinade. Cook on each side until the fish flakes easily with a fork.',
                 imageUrl: 'https://drive.google.com/uc?id=124y3Dw0xdWULH2V4FAWOK9ViC11xK8lC'
